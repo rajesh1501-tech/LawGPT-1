@@ -29,7 +29,7 @@ div.stButton > button:active {
             margin-top: -2em;
         }
         #MainMenu {visibility: hidden;}
-        .stDeployButton {display:none;}
+        .stDeployButton {display:block;}
         footer {visibility: hidden;}
         #stDecoration {display:none;}
     button[title="View fullscreen"]{
@@ -65,7 +65,7 @@ prompt = PromptTemplate(template=prompt_template,
                         input_variables=['context', 'question', 'chat_history'])
 
 # You can also use other LLMs options from https://python.langchain.com/docs/integrations/llms. Here I have used TogetherAI API
-TOGETHER_AI_API= os.environ['TOGETHER_AI']
+TOGETHER_AI_API= os.environ['TOGETHER_AI'] = '2a7c5dcdbb1049a39117ac0865c4d04008d49db31aa85a3258603817af16dbd0'
 llm = Together(
     model="mistralai/Mistral-7B-Instruct-v0.2",
     temperature=0.5,
