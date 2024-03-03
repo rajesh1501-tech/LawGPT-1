@@ -10,7 +10,7 @@ import time
 st.set_page_config(page_title="LawGPT")
 col1, col2, col3 = st.columns([1,4,1])
 with col2:
-    st.image("https://github.com/harshitv804/LawGPT/assets/100853494/ecff5d3c-f105-4ba2-a93a-500282f0bf00")
+    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Ftamil.samayam.com%2Flatest-news%2Fcoimbatore-news%2Fdmk-cadre-damaged-ambedkar-banner-in-coimbatore%2Farticleshow%2F77982956.cms&psig=AOvVaw1-0q-LzAxFGSob76j6I0Fp&ust=1709541868104000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCF5vHZ14QDFQAAAAAdAAAAABAE")
 
 st.markdown(
     """
